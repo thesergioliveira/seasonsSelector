@@ -37,7 +37,7 @@ const monthCheck = (str) => {
   } else {
     season = "I couldn’t find any month in your text, sorry try again";
   }
-  return newStr == " " ? season : `The month ${newStr} is in the ${season}`;
+  return newStr == " " ? season : `The month ${newStr} is in the ${seasonw}`;
 };
 console.log(monthCheck("I love february"));
 console.log(monthCheck("We need kartoffel"));
